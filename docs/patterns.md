@@ -57,7 +57,7 @@ Here is the setup:
 #
 module.exports = (robot) ->
   robot.respond /help\s*(.*)?$/i, (msg) ->
-    msg.reply "`#{msg.match[0]"` means nothing to me anymore. Perhaps you meant `docs` instead?"
+    msg.reply "That means nothing to me anymore. Perhaps you meant `docs` instead?"
     return
 
 ```
